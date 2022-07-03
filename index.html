@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>SrBan</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+ <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="menu-itens">
+	<center>
+	 <div class="list">
+		<div class="shop">		
+		<div class="post produtos">
+		
+		<i id="close" class="fas fa-times btnclose"></i>
+		<br>
+		
+			<span id="title">Produtos</span><br><br><div class="line"></div>
+
+			<div class="produto">
+			 <span id="title">Encomendar<br><span id="small-text">Clique agora para realizar uma encomenda</span></span>
+			 <a href="#"><button class="button"><i class="fas fa-shopping-cart"></i></button></a>
+			</div>
+
+			
+			<span id="text">Todos as compras são feitas pelo MercadoPago</span>
+			
+		</div>
+		</div>
+		</div>
+	</center>
+	</div>	
+	
+	<div class="menu">
+		<div class="info">
+		 <span class="logo">SrBan</span><br><span class="playing">Desenvolvedor PHP e Js.</span>
+		</div>
+		
+		<div class="btns">
+		 <i id="open" class="fas fa-shopping-cart btn"></i>
+		</div>
+		
+	</div>
+	<br>
+	<center>
+		
+		<div class="itens">
+
+		<div class="posts">
+			
+			<div class="post">
+				
+				<span id="post-by">
+					<img src="img/pig.png">
+					SrBan
+				</span>
+				<span id="text">
+					Olá sou o Ban!<br>sla
+<br>sla
+				</span>
+			</div>
+			
+		</div>
+		</div>
+					
+	<div class="footer"><br>
+		<span id="logo">SrBan</span><br><br>
+		<span>Todos os direitos reservados...</span><br><br>
+		<i id="tw" class="fab fa-twitter"></i>
+		<i id="yt" class="fab fa-youtube"></i>
+	</div>
+	
+	</center>
+	
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script>
+
+ $("#open").click(function(){
+	 $(".menu-itens").show();
+ });
+
+ $("#close").click(function(){
+	 $(".menu-itens").hide();
+ });
+
+</script>
+</html>
